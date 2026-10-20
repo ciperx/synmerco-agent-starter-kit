@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synmerco-agent"
+version = "0.1.0"
+description = "Minimal dependency-free Python client and starter kit for the Synmerco agent marketplace"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["synmerco", "ai-agents", "usdc", "escrow", "marketplace"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://synmerco.com"
+
+[tool.setuptools]
+packages = ["synmerco"]
